@@ -42,7 +42,7 @@ root.render(
         <WagmiProvider config={rainbowConfig}>
             <QueryClientProvider client={queryClient}>
                 <RainbowKitProvider>
-                    <TonConnectUIProvider manifestUrl="https://softstackhq.github.io/telegram-mini-app/tonconnect-manifest.json">
+                    <TonConnectUIProvider manifestUrl="https://liukundavid.github.io/telegram-mini-app/tonconnect-manifest.json">
                         <App />
                     </TonConnectUIProvider>
                 </RainbowKitProvider>
